@@ -4,12 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KKICKS Group – Sərgi, tədbir və biznes xidmətləri sahəsində peşəkar yanaşma ilə beynəlxalq standartlara cavab verən həllər təqdim edir.">
+    <meta name="keywords" content="KKICKS, biznes xidmətləri, sərgi təşkilatı, tədbir planlaşdırma, korporativ tədbirlər, IMEX, ATM, Frankfurt, Dubay">
+    <meta name="author" content="KKICKS Group">
+
+    <meta property="og:title" content="KKICKS Group | Peşəkar Biznes Xidmətləri">
+    <meta property="og:description" content="Sərgi və tədbir sektorunda beynəlxalq təcrübəyə malik peşəkar komandamızla tanış olun.">
+    <meta property="og:image" content="https://kkicksgroup.com/Media/Logo-hero.png"> 
+    <meta property="og:url" content="https://kkicksgroup.com/"> 
+    <meta property="og:type" content="website">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/Media/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Css/style.css">
-    <title>KKİCKS Group | Peşəkar Biznes Xidmətləri</title>
+    <title data-i18n="title-web">KKİCKS Group | Peşəkar Biznes Xidmətləri</title>
 </head>
 
 <body>
@@ -28,13 +39,14 @@
                             <li class="hover"><a href="#about" data-i18n="about">Haqqımızda</a></li>
                             <li class="hover"><a href="#events" data-i18n="events">Tədbirlər</a></li>
                             <li class="hover"><a href="#partners" data-i18n="partners">Partnyorlarımız</a></li>
-                            <li class="hover"><a href="#gallery" data-i18n="gallery">Qalereya</a></li>
+                            <li class="hover"><a href="/news.html" data-i18n="news">Xəbərlər</a></li>
+                            <li class="hover"><a href="/gallery.html" data-i18n="gallery">Qalereya</a></li>
                             <li class="hover"><a href="#contact" data-i18n="contact">Əlaqə</a></li>
                             <li class="hover"><a href="#" id="current-lang" data-lang="az">AZ</a>
                                 <ul class="submenu">
-                                    <li class="hover"><a href="#" data-lang="az">AZ</a></a></li>
-                                    <li class="hover"><a href="#" data-lang="ru">RU</a></li>
-                                    <li class="hover"><a href="#" data-lang="en">EN</a></li>
+                                    <li class="hover"><a href="#" id="az" data-lang="az">AZ</a></a></li>
+                                    <li class="hover"><a href="#" id="ru" data-lang="ru">RU</a></li>
+                                    <li class="hover"><a href="#" id="en" data-lang="en">EN</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -47,15 +59,16 @@
                             <li class="hover"><a href="#about" data-i18n="about">Haqqımızda</a></li>
                             <li class="hover"><a href="#events" data-i18n="events">Tədbirlər</a></li>
                             <li class="hover"><a href="#partners" data-i18n="partners">Partnyorlarımız</a></li>
-                            <li class="hover"><a href="#gallery" data-i18n="gallery">Qalereya</a></li>
+                            <li class="hover"><a href="/news.html" data-i18n="news">Xəbərlər</a></li>
+                            <li class="hover"><a href="/gallery.html" data-i18n="gallery">Qalereya</a></li>
                             <li class="hover"><a href="#contact" data-i18n="contact">Əlaqə</a></li>
-                            <!-- <li class="hover"><a href="#" data-lang="az">AZ</a>
-                                <ul class="submenu">
-                                    <li class="hover"><a href="#" data-lang="az">AZ</a></a></li>
-                                    <li class="hover"><a href="#" data-lang="ru">RU</a></li>
-                                    <li class="hover"><a href="#" data-lang="en">EN</a></li>
+                            <li class="hover"><a href="#" id="current-lang" data-lang="az"></a>
+                                <ul class="submenu-burger">
+                                    <li class="hover"><a href="#" id="az" data-lang="az">AZ</a></a></li>
+                                    <li class="hover"><a href="#" id="ru" data-lang="ru">RU</a></li>
+                                    <li class="hover"><a href="#" id="en" data-lang="en">EN</a></li>
                                 </ul>
-                            </li> -->
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -283,6 +296,19 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Video 3 -->
+
+                        <div class="video-item">
+                            <div class="video-wrapper" onclick="handleOverlayClick(3)">
+                                <video id="video3" class="slider-video" preload="auto">
+                                    <source src="/Media/Video/Video-3.mp4" type="video/mp4">
+                                </video>
+                                <div class="overlay-play visible" id="overlay3" onclick="togglePlay(event, 3)">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Navigation -->
@@ -319,6 +345,9 @@
                         <div class="partner-img">
                             <img src="Media/Partner-6.jpg" alt="">
                         </div>
+                        <div class="partner-img">
+                            <img src="Media/Partner-13.jpg" alt="">
+                        </div>
                     </div>
                     <div class="partner-box">
                         <div class="partner-img">
@@ -338,6 +367,9 @@
                         </div>
                         <div class="partner-img">
                             <img src="Media/Partner-12.jpg" alt="">
+                        </div>
+                        <div class="partner-img">
+                            <img src="Media/Partner-14.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -376,8 +408,8 @@
                         <img src="/Media/Gallerya/IMG_3143.JPG" alt="Slide 23">
                     </div>
                     <div class="nav-buttons">
-                        <button  id="prev-slide"><i class="fa-solid fa-angle-left"></i></button>
-                        <button  id="next-slide"><i class="fa-solid fa-angle-right"></i></button>
+                        <button id="prev-slide"><i class="fa-solid fa-angle-left"></i></button>
+                        <button id="next-slide"><i class="fa-solid fa-angle-right"></i></button>
                     </div>
                 </div>
             </section>
@@ -435,6 +467,7 @@
             <footer class="footer">
                 <div class="footer-content">
                     <p>© 2025 <span style="color: #ad974f; font-weight: 600;">Algo Solution</span></p>
+                    <!-- By Eminzade Nuran -->
                 </div>
             </footer>
 

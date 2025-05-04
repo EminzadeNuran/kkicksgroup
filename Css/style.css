@@ -113,6 +113,8 @@ ul {
     margin-right: 50px;
 }
 
+
+
 .menu-list li:hover .submenu {
     display: block;
 }
@@ -793,6 +795,22 @@ video {
 
 /* Section-F-End */
 
+
+
+/* Section-H */
+
+.section-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+/* Section-H-End */
+
 /* Footer */
 
 .footer {
@@ -810,7 +828,6 @@ video {
     justify-content: center;
     gap: 10px;
 }
-
 
 /* Responsive */
 
@@ -993,6 +1010,9 @@ video {
         display: flex;
         justify-content: space-between;
     }
+
+    
+    
 
     /* Section-B-Card */
     .boxs {

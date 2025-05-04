@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/Media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="/Css/gallery.css">
+    <title>KKİCKS Group | Peşəkar Biznes Xidmətləri</title>
+</head>
+
+<body>
+    <div class="container-gallerypage">
+        <div class="content-gallerypage">
+
+            <!-- Navigation -->
+            <div class="nav-bar">
+                <nav class="nav-menu">
+                    <!-- Navigation-Logo -->
+                    <div class="logo">
+                        <a href="#"><img src="Media/logo.png" alt=""></a>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu-list">
+                            <li class="hover"><a href="#services" data-i18n="services">Fəaliyyətlərimiz</a></li>
+                            <li class="hover"><a href="#about" data-i18n="about">Haqqımızda</a></li>
+                            <li class="hover"><a href="#events" data-i18n="events">Tədbirlər</a></li>
+                            <li class="hover"><a href="#partners" data-i18n="partners">Partnyorlarımız</a></li>
+                            <li class="hover"><a href="/news.html" data-i18n="news">Xəbərlər</a></li>
+                            <li class="hover"><a href="/gallery.html" data-i18n="gallery">Qalereya</a></li>
+                            <li class="hover"><a href="#contact" data-i18n="contact">Əlaqə</a></li>
+                            <li class="hover"><a href="#" id="current-lang" data-lang="az">AZ</a>
+                                <ul class="submenu">
+                                    <li class="hover"><a href="#" data-lang="az">AZ</a></a></li>
+                                    <li class="hover"><a href="#" data-lang="ru">RU</a></li>
+                                    <li class="hover"><a href="#" data-lang="en">EN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <ul class="burger-menu">
+                            <li class="hover"><a href="#services" data-i18n="services">Fəaliyyətlərimiz</a></li>
+                            <li class="hover"><a href="#about" data-i18n="about">Haqqımızda</a></li>
+                            <li class="hover"><a href="#events" data-i18n="events">Tədbirlər</a></li>
+                            <li class="hover"><a href="#partners" data-i18n="partners">Partnyorlarımız</a></li>
+                            <li class="hover"><a href="/news.html" data-i18n="news">Xəbərlər</a></li>
+                            <li class="hover"><a href="/gallery.html" data-i18n="gallery">Qalereya</a></li>
+                            <li class="hover"><a href="#contact" data-i18n="contact">Əlaqə</a></li>
+                            <li class="hover"><a href="#" id="current-lang" data-lang="az"></a>
+                                <ul class="submenu">
+                                    <li class="hover"><a href="#" id="az" data-lang="az">AZ</a></a></li>
+                                    <li class="hover"><a href="#" id="ru" data-lang="ru">RU</a></li>
+                                    <li class="hover"><a href="#" id="en" data-lang="en">EN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <section class="gallery-page">
+                <h2 data-i18n="title-5">Şəkillər</h2>
+                <div class="title-underline"></div>
+                <div class="gallery-grid">
+
+                    <div id="gallery"></div>
+
+                    <!-- Lightbox -->
+                    <div id="lightbox" style="display:none;">
+                        <button id="prev-btn">&#10094;</button>
+                        <div id="lightbox-content">
+                            <span id="close-lightbox">&times;</span>
+                            <img id="lightbox-img" src="" alt="">
+                        </div>
+                        <button id="next-btn">&#10095;</button>
+                    </div>
+                </div>
+
+                <a href="/gallery.html" data-i18n="back-button" class="back-button">Geri qayıt</a>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>© 2025 <span style="color: #ad974f; font-weight: 600;">Algo Solution</span></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="Js/multilang.js"></script>
+    <script src="Js/gallery.js"></script>
+    <script src="Js/burger-menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+.gallerypage-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .gallerypage-content{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .gallerypage-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title-underline {
+    width: 80px;
+    height: 4px;
+    background-color: #ad974f;
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .gallery-item {
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  }
+  
+  .gallery-img-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .gallery-item-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .gallery-item-title h3 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-item-desc p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-height: 140px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .gallery-item-backbtn {
+    margin-top: 15px;
+  }
+  
+  .gallery-item-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ad974f;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gallery-item-btn:hover {
+    background-color: #a78d4f;
+  }
+  
+
+/* Gallery Page */
+
+.container-gallerypage{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.content-gallerypage{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-page{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.gallery-page h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#first-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#first-gallery a img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#first-gallery a img:hover {
+    transform: scale(1.05);
+}
+
+#gallery img {
+    width: 300px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#lightbox-content {
+    position: relative;
+    max-width: 900px;
+    width: 90%;
+}
+
+#lightbox-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#close-lightbox {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+#prev-btn,
+#next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#prev-btn {
+    left: 30px;
+}
+
+#next-btn {
+    right: 30px;
+}
+
+#prev-btn:hover,
+#next-btn:hover,
+#close-lightbox:hover {
+    color: #ffcc00;
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #a78d4f;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}

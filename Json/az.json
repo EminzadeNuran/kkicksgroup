@@ -4,6 +4,7 @@
     "about": "Haqqımızda",
     "events": "Tədbirlər",
     "partners": "Partnyorlarımız",
+    "news": "Xəbərlər",
     "gallery": "Qalereya",
     "contact": "Əlaqə",
   
@@ -18,6 +19,8 @@
     "title-4": "Partnyorlarımız",
     "title-5": "Qalereya",
     "title-6": "Bizimlə əlaqə",
+    "title-7": "Xəbərlər",
+    "title-web": "KKICKS Group | Peşəkar Biznes Xidmətləri",
 
     "message-1-title":"Tədbirlər",
     "message-2-title":"Outsourcing",
@@ -36,5 +39,27 @@
   
     "about-1":"KKICKS GROUP biznes üçün hərtərəfli həllər təqdim edən müasir şirkətdir. Biz təşkilatlara bazar dəyişikliklərinə uyğunlaşmaqda, innovasiyaları həyata keçirməkdə, davamlı strategiyalar qurmaqda və iddialı məqsədlərə nail olmaqda kömək edirik.",
     "about-2":"Missiyamız peşəkar yanaşma, strateji planlaşdırma və yüksək keyfiyyətli layihənin icrası vasitəsilə müştərilər üçün dəyər yaratmaqdır. Biz biznes konsaltinqi, layihələrin idarə edilməsi, marketinq strategiyaları, rəqəmsal transformasiya və tərəfdaşlıq şəbəkələrinin inkişafı üzrə ixtisaslaşmışıq.",
-    "about-3":"Şəffaflıq, hesabatlılıq, səriştə və davamlı inkişaf gördüyümüz işlərin əsasını təşkil edir. KKICKS GROUP istənilən problemin öhdəsindən gəlməyə və biznesinizi növbəti səviyyəyə qaldırmağa hazır olan ekspertlər komandasıdır."
+    "about-3":"Şəffaflıq, hesabatlılıq, səriştə və davamlı inkişaf gördüyümüz işlərin əsasını təşkil edir. KKICKS GROUP istənilən problemin öhdəsindən gəlməyə və biznesinizi növbəti səviyyəyə qaldırmağa hazır olan ekspertlər komandasıdır.",
+
+    "news-1-title":"KKG FRANKFURTDA – IMEX 2025 SƏRGİSİNDƏ!",
+    "news-2-title":"KKG Dubai-də – Arabian Travel Market 2025 sərgisində!",
+
+    "news-1-text":"KKG – innovativ yanaşmalar və qlobal hədəflərlə irəliləyir!",
+    "news-2-text":"KKG olaraq qlobal hədəflərlə yolumuza davam edirik!",
+
+    "read-more": "Daha çox oxu",
+
+    "news-page-title-1": "KKG FRANKFURTDA – IMEX 2025 SƏRGİSİNDƏ!",
+    "news-page-text-1":"2025-ci ilin may ayında KKG komandası Frankfurt şəhərində keçiriləcək IMEX sərgisində iştirak edəcək. Bu beynəlxalq tədbir sahəsindəki yeniliklərlə tanış olmaq, tərəfdaşlıq imkanları yaratmaq və xidmətlərimizi dünyaya tanıtmaq üçün əla fürsətdir.KKG – innovativ yanaşmalar və qlobal hədəflərlə irəliləyir!",
+    "back-button": "← Geri qayıt",
+    "gallery-item-backbtn": "Daha çox bax",
+
+    "gallery-item-title-1":"Xiaomi mağazasının möhtəşəm açılışı",
+    "gallery-item-text-1":"Xiaomi mağazalarının Park Bulvar və Crescent Mall-da keçirilən açılışı xüsusianlarlayadda qaldı. Canlı musiqi, maraqlı aparıcı və əyləncəli aktivliklər tədbiri daha daunudulmaz etdi. Bizim təşkilatçılığımızla keçirilən bu açılışda qonaqlar texnologiya və əyləncənin mükəmməl birləşməsini hiss etdilər.",
+    "gallery-item-title-2":"ARDESTO ilə dadlı təcrübə – KKG-dən xüsusi tədbir",
+    "gallery-item-text-2":"KKG şirkətinin təşkilatçılığı ilə ERC Distribution şirkətinin ARDESTO brendi üçün xüsusi tədbir keçirildi. Tədbir çərçivəsində məhsulların təqdimatı ilə yanaşı, otelin şef-aşpazı ilə interaktiv master-klass da təşkil olundu. Qonaqlar ARDESTO-nun mətbəx avadanlıqlarından istifadə edilərək hazırlanan ləzzətli yeməkləri dadmaq imkanı əldə etdilər.",
+    "gallery-item-title-3":"HONOR Gala Night",
+    "gallery-item-text-3":"Ritz-Carlton otelində HONOR üçün təşkil etdiyimiz Gala Night,yüksək səviyyəli katerinq, canlı musiqi, peşəkar DJ və möhtəşəm dekor ilə unudulmaz bir gecə yaratdı. Bütün detallar diqqətlə planlanaraq, iştirakçılara eksklüziv təcrübə təqdim olundu.",
+    "gallery-item-title-4":"Irshad Electronics-də HONOR Bölməsinin Açılışı",
+    "gallery-item-text-4":"Irshad Electronics mağazasında HONOR brendinə həsr olunmuş yeni bölmənin açılışı üçün əyləncəli və dinamik tədbir təşkil etdik: musiqi proqramı, oyunlar və yüksək səviyyəli katerinq xidməti ilə."
   }
