@@ -29,12 +29,12 @@ const galleryData = {
     "Media/Box-4/IMG_3130.JPG",
   ],
   box5: [
-    "Media/Box-5/box5-img-1.jpg",
     "Media/Box-5/box5-img-2.jpg",
     "Media/Box-5/box5-img-3.jpg",
     "Media/Box-5/box5-img-4.jpg",
     "Media/Box-5/box5-img-5.jpg",
     "Media/Box-5/box5-img-6.jpg",
+    "Media/Box-5/box5-img-7.jpg",
   ],
 };
 
