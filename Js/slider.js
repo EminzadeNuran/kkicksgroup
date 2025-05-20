@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function startAutoSlide() {
-      autoSlide = setInterval(nextSlide, 5000); // 5 saniyədə bir dəyişir
+      autoSlide = setInterval(nextSlide, 5000); 
     }
 
     function resetAutoSlide() {

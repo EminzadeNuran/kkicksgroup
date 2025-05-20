@@ -1,27 +1,3 @@
-// const newsData = {
-//   1: {
-//     title: "KKG FRANKFURTDA – IMEX 2025 SƏRGİSİNDƏ!",
-//     image: "/Media/News-img/News-1.jpg",
-//     text: "2025-ci ilin may ayında KKG komandası Frankfurt şəhərində keçiriləcək IMEX sərgisində iştirak edəcək. Bu beynəlxalq tədbir sahəsindəki yeniliklərlə tanış olmaq, tərəfdaşlıq imkanları yaratmaq və xidmətlərimizi dünyaya tanıtmaq üçün əla fürsətdir.KKG – innovativ yanaşmalar və qlobal hədəflərlə irəliləyir!",
-//   },
-//   2: {
-//     title: "Dubay sərgisi uğurla baş tutdu",
-//     image: "/Media/News-img/News-2.jpg",
-//     text: "2025-ci ilin 28 aprel – 1 may tarixlərində KKG komandası Dubay şəhərində keçiriləcək Arabian Travel Market (ATM) 2025 sərgisində iştirak edəcək. Bu sərgi Yaxın Şərqdə turizm və tədbir sahəsində ən nüfuzlu beynəlxalq platformalardan biridir.Komandamız bu tədbirdə iştirak edərək yeni əməkdaşlıq imkanlarını araşdıracaq, sənaye üzrə yenilikləri izləyəcək və beynəlxalq mühitdə təmsil olunacaq.KKG olaraq qlobal hədəflərlə yolumuza davam edirik!",
-//   },
-// };
-
-// const urlParams = new URLSearchParams(window.location.search);
-// const id = urlParams.get("id");
-
-// if (newsData[id]) {
-//   document.getElementById("news-title").innerText = newsData[id].title;
-//   document.getElementById("news-image").src = newsData[id].image;
-//   document.getElementById("news-text").innerText = newsData[id].text;
-// } else {
-//   document.querySelector(".news-page-content").innerHTML =
-//     "<p>Xəbər tapılmadı.</p>";
-// }
 
 const newsData = {
   az: {
@@ -135,7 +111,7 @@ document.querySelectorAll('[data-lang]').forEach((el) => {
   });
 });
 
-// İlk açılışda yüklə
+
 document.getElementById("current-lang").innerText = selectedLang.toUpperCase();
 applyTranslations(selectedLang);
 renderNews(selectedLang, id);

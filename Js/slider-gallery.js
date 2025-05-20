@@ -40,6 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
       autoSlide = setInterval(nextSlide, 4000);
   }
 
-  window.addEventListener("resize", updateSlider); // Responsivlik üçün
-  updateSlider(); // Başlanğıc üçün
+  window.addEventListener("resize", updateSlider); 
+  updateSlider(); 
 });
