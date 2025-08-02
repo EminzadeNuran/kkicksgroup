@@ -36,6 +36,12 @@ const galleryData = {
     "Media/Box-5/box5-img-6.jpg",
     "Media/Box-5/box5-img-7.jpg",
   ],
+  box6: [
+    "Media/Box-6/box6-img1.jpeg",
+    "Media/Box-6/box6-img2.jpeg",
+    "Media/Box-6/box6-img3.jpeg",
+    "Media/Box-6/box6-img4.jpeg",
+  ]
 };
 
 const firsGallery = document.getElementById("first-gallery");

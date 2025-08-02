@@ -379,7 +379,7 @@ ul {
 }
 
 .card {
-    height: 195px;
+    height: 210px;
     max-width: 320px;
     border-width: 1px;
     border-color: rgba(219, 234, 254, 1);
@@ -612,6 +612,7 @@ video {
     border-radius: 10px;
     background-position: center;
     background-size: cover;
+    background-color: white;
 
 }
 
